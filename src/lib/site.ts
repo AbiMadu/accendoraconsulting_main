@@ -33,7 +33,7 @@ export const site = {
 export const legal = {
   countryOfRegistration: "England & Wales",
   // TODO: confirm the registered office address as filed at Companies House.
-  registeredAddress: "[Registered office address to be confirmed]",
+  registeredAddress: "Arundel, West Sussex & Wales",
   // The controller for personal data collected through this site.
   dataController: "Accendora Consulting Ltd",
   // TODO: confirm the ICO data protection register entry number, if registered.

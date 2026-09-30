@@ -41,7 +41,7 @@ export type LegalDocument = {
 export const privacyPolicy: LegalDocument = {
   eyebrow: "Legal",
   title: "Privacy policy",
-  lead: "How Accendora collects, uses and protects personal information — written plainly, and limited to what actually happens.",
+  lead: "How Accendora collects, uses and protects personal information written plainly, and limited to what actually happens.",
   updated: legal.privacyUpdated,
   intro: [
     `${site.name} ("Accendora", "we", "us") is the data controller for the personal information described in this policy. We are a company registered in England and Wales, company number ${site.companyNumber}, with a registered office at ${legal.registeredAddress}.`,
@@ -73,13 +73,13 @@ export const privacyPolicy: LegalDocument = {
             },
             {
               term: "Technical information",
-              text: "Standard server request data generated when any website is visited — for example IP address, browser type and the page requested — processed by our hosting provider for security and reliability.",
+              text: "Standard server request data generated when any website is visited for example IP address, browser type and the page requested processed by our hosting provider for security and reliability.",
             },
           ],
         },
         {
           kind: "note",
-          text: "We do not ask for special category data, and we ask you not to send it to us unprompted. Where a programme genuinely requires it — for example safeguarding information connected to work with young people — it is handled under a separate written agreement covering that specific engagement, not under this policy alone.",
+          text: "We do not ask for special category data, and we ask you not to send it to us unprompted. Where a programme genuinely requires it for example safeguarding information connected to work with young people it is handled under a separate written agreement covering that specific engagement, not under this policy alone.",
         },
       ],
     },
@@ -161,7 +161,7 @@ export const privacyPolicy: LegalDocument = {
         {
           kind: "list",
           items: [
-            "Service providers who process information on our behalf under written terms — for example email and file storage, website hosting, scheduling and accounting software.",
+            "Service providers who process information on our behalf under written terms for example email and file storage, website hosting, scheduling and accounting software.",
             "Associates or subcontractors engaged on a specific piece of work, and only to the extent that work requires, under equivalent confidentiality and data protection obligations.",
             "Professional advisers, such as accountants or legal advisers, where necessary.",
             "Regulators, law enforcement or other authorities where we are legally required to do so.",
@@ -255,7 +255,7 @@ export const privacyPolicy: LegalDocument = {
 export const termsOfBusiness: LegalDocument = {
   eyebrow: "Legal",
   title: "Terms of business",
-  lead: "The standard basis on which Accendora is engaged — scope, ownership, payment and responsibility, set out before any work begins.",
+  lead: "The standard basis on which Accendora is engaged scope, ownership, payment and responsibility, set out before any work begins.",
   updated: legal.termsUpdated,
   intro: [
     `These terms set out the basis on which ${site.name} ("Accendora", "we", "us") provides consultancy services to a client ("you"). They apply to every engagement unless we have agreed something different in writing.`,
@@ -309,7 +309,7 @@ export const termsOfBusiness: LegalDocument = {
       blocks: [
         {
           kind: "p",
-          text: "We deliver what the Proposal describes. Consultancy work legitimately evolves, and if what you need changes — in scope, scale, sequence or timing — we will agree the change and any effect on fees and timescales in writing before carrying it out.",
+          text: "We deliver what the Proposal describes. Consultancy work legitimately evolves, and if what you need changes in scope, scale, sequence or timing — we will agree the change and any effect on fees and timescales in writing before carrying it out.",
         },
         {
           kind: "p",
@@ -368,7 +368,7 @@ export const termsOfBusiness: LegalDocument = {
       blocks: [
         {
           kind: "p",
-          text: "Where an engagement involves young people, safeguarding is a condition of the work, not an add-on. Responsibility for the safeguarding policy, duty of care and supervision of young people remains with the organisation that holds it — normally the school, college, employer or commissioning body.",
+          text: "Where an engagement involves young people, safeguarding is a condition of the work, not an add-on. Responsibility for the safeguarding policy, duty of care and supervision of young people remains with the organisation that holds it normally the school, college, employer or commissioning body.",
         },
         {
           kind: "p",
@@ -386,7 +386,7 @@ export const termsOfBusiness: LegalDocument = {
         },
         {
           kind: "p",
-          text: "Agreed expenses — travel, accommodation, and any third-party costs — are charged at cost and only where the Proposal provides for them or you have approved them in advance.",
+          text: "Agreed expenses — travel, accommodation, and any third-party costs are charged at cost and only where the Proposal provides for them or you have approved them in advance.",
         },
         {
           kind: "p",
@@ -404,7 +404,7 @@ export const termsOfBusiness: LegalDocument = {
         },
         {
           kind: "p",
-          text: "Accendora retains ownership of its own pre-existing and underlying materials — methodologies, frameworks, tools, templates and know-how, including the Discover, Design, Deliver and Develop methodology — together with anything we develop generally in the course of our practice. Where a Deliverable includes such material, you receive a non-exclusive, perpetual licence to use it as part of that Deliverable.",
+          text: "Accendora retains ownership of its own pre-existing and underlying materials methodologies, frameworks, tools, templates and know-how, including the Discover, Design, Deliver and Develop methodology together with anything we develop generally in the course of our practice. Where a Deliverable includes such material, you receive a non-exclusive, perpetual licence to use it as part of that Deliverable.",
         },
         {
           kind: "p",
@@ -516,6 +516,6 @@ export const termsOfBusiness: LegalDocument = {
   ],
   closing: {
     heading: "Before anything begins",
-    text: `Every engagement is set out in writing first — scope, ownership and sequence — so the shape of the work is visible before you commit to it. If something in these terms does not fit how your organisation contracts, say so early and we will talk it through. Write to ${site.email}.`,
+    text: `Every engagement is set out in writing first scope, ownership and sequence — so the shape of the work is visible before you commit to it. If something in these terms does not fit how your organisation contracts, say so early and we will talk it through. Write to ${site.email}.`,
   },
 };

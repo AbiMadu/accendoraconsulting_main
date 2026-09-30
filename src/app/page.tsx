@@ -17,7 +17,7 @@ import { site } from "@/lib/site";
 
 const heroSlides: HeroSlide[] = [
   {
-    image: "/placeholders/hero-01.jpeg",
+    image: "/placeholders/hero-01.jpg",
     alt: "Abstract composition of ascending lines meeting a bronze horizon",
     eyebrow: site.pillars,
     title: "Building stronger organisations.",
@@ -26,7 +26,7 @@ const heroSlides: HeroSlide[] = [
     cta: { href: "/what-we-do", label: "What we do" },
   },
   {
-    image: "/placeholders/hero-02.jpeg",
+    image: "/placeholders/hero-02.jpg",
     alt: "Abstract composition of rising vertical forms",
     eyebrow: "People & future talent",
     title: "The future workforce is already",
@@ -35,7 +35,7 @@ const heroSlides: HeroSlide[] = [
     cta: { href: "/young-people", label: "Young people & future talent" },
   },
   {
-    image: "/placeholders/hero-03.jpeg",
+    image: "/placeholders/hero-03.jpg",
     alt: "Abstract composition of concentric arcs and measured forms",
     eyebrow: "Strategy into delivery",
     title: "Good ideas need more than",
@@ -47,15 +47,15 @@ const heroSlides: HeroSlide[] = [
 
 const pillarImages: Record<string, { src: string; alt: string }> = {
   people: {
-    src: "/placeholders/people.jpeg",
+    src: "/placeholders/people.jpg",
     alt: "Abstract grouping of figures representing people and talent",
   },
   capability: {
-    src: "/placeholders/capability.jpeg",
+    src: "/placeholders/capability.jpg",
     alt: "Abstract grid with a rising plotted line representing capability",
   },
   opportunity: {
-    src: "/placeholders/opportunity.jpeg",
+    src: "/placeholders/opportunity.jpg",
     alt: "Abstract converging pathways rising toward a bronze point",
   },
 };

@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Accendia Consulting Ltd — website
 
-## Getting Started
-
-First, run the development server:
+Six-page B2B consultancy site. Next.js (App Router, TypeScript), Tailwind CSS v4,
+Framer Motion for animation and page transitions, Embla for the carousels.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev     # http://localhost:3000
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Pages
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Route | Page |
+| --- | --- |
+| `/` | Home — hero carousel, pillars, service overview, methodology, founder teaser |
+| `/what-we-do` | The four service areas in full |
+| `/young-people` | Young People & Future Talent |
+| `/quality-accreditation` | Quality & Accreditation support |
+| `/about` | About Accendia (founder-led, with an experience carousel) |
+| `/contact` | Contact — three routes plus enquiry form |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Before launch — what still needs real content
 
-## Learn More
+1. **`src/lib/site.ts`** — business email, LinkedIn URL (the Accendia company page has still to be
+   created), and the booking link. Every page reads these from here.
+2. **Founder biography** — `src/app/about/page.tsx` contains `careerPlaceholders`, three
+   clearly-marked slots. Nothing has been invented: supply verified role titles, periods and
+   descriptions (past tense for completed work, no implication of an ongoing relationship) and drop
+   them straight in.
+3. **Imagery** — every image is an abstract placeholder in `public/placeholders/*.svg`. All images
+   render through the `Figure` component (`src/components/ui.tsx`) or the carousels, so replacing
+   artwork means changing the `src` and `alt` only. Once real raster photography is in place,
+   `dangerouslyAllowSVG` can be removed from `next.config.ts`. Generation prompts for all twelve
+   images — plus the brief for the founder portrait, which must be a real photograph — are in
+   `docs/image-prompts.md`.
+4. **Contact form delivery** — `src/components/ContactForm.tsx` currently composes a `mailto:` so no
+   enquiry is lost while no backend exists. Swap `handleSubmit` for a server action or a form
+   provider when one is chosen.
 
-To learn more about Next.js, take a look at the following resources:
+## Content rules
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`CLAUDE.md` holds the positioning, tone and the non-negotiable credibility rules — no organisation
+names or logos anywhere, no claimed clients or partnerships, no invented credentials or statistics,
+and never any wording that positions Accendia as an accrediting body. Read it before editing copy.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Structure
 
-## Deploy on Vercel
+```
+src/
+  app/                    one directory per page, plus template.tsx (page transitions)
+  components/
+    motion/               Reveal, Stagger, MotionProvider, ScrollProgress
+    ui.tsx                Section, SectionHeading, Eyebrow, Button, Figure, Note
+    HeroCarousel.tsx      autoplaying hero (Home)
+    EditorialCarousel.tsx draggable narrative carousel (About)
+    Methodology.tsx       Discover → Design → Deliver → Develop
+  lib/
+    site.ts               editable site-wide values
+    content.ts            all page copy as data
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Animation is deliberately restrained and respects `prefers-reduced-motion` throughout
+(`MotionConfig reducedMotion="user"` plus a CSS fallback in `globals.css`).

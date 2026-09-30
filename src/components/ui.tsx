@@ -44,8 +44,7 @@ export function Eyebrow({
   } as const;
 
   return (
-    <p className={`eyebrow flex items-center gap-3 ${tones[tone]} ${className}`}>
-      <span aria-hidden className="h-px w-8 bg-current opacity-50" />
+    <p className={`eyebrow flex items-center gap-3 ${tones[tone]} ${className}`}> 
       {children}
     </p>
   );

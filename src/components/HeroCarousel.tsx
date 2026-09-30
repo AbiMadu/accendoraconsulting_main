@@ -91,8 +91,7 @@ export function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
               exit={{ opacity: 0, y: -12 }}
               transition={{ duration: 0.6 }}
             >
-              <p className="eyebrow flex items-center gap-3 text-accent-soft">
-                <span aria-hidden className="h-px w-10 bg-current opacity-60" />
+              <p className="eyebrow flex items-center gap-3 text-accent-soft"> 
                 {slide.eyebrow}
               </p>
 

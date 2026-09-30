@@ -23,7 +23,7 @@ const experienceSlides: EditorialSlide[] = [
     alt: "Abstract grouping of figures representing people",
     label: "Education",
     title: "How education organisations actually work",
-    body: "Curriculum intent, progression, learner experience and the operational pressures education teams carry — understood from the inside rather than described from outside.",
+    body: "Curriculum intent, progression, learner experience and the operational pressures education teams carry understood from the inside rather than described from outside.",
   },
   {
     image: "/placeholders/capability.svg",
@@ -58,14 +58,14 @@ const experienceSlides: EditorialSlide[] = [
     alt: "Abstract converging pathways rising toward a point",
     label: "Organisational development",
     title: "Structure, ownership, capability",
-    body: "Strengthening how an organisation is set up to deliver — roles, ownership and the capability that makes consistency possible.",
+    body: "Strengthening how an organisation is set up to deliver roles, ownership and the capability that makes consistency possible.",
   },
   {
     image: "/placeholders/quality.svg",
     alt: "Abstract layered documents with a verification mark",
     label: "Quality",
     title: "Practice that withstands scrutiny",
-    body: "Quality assurance, frameworks, review and accreditation readiness — experience of what external scrutiny genuinely asks for.",
+    body: "Quality assurance, frameworks, review and accreditation readiness experience of what external scrutiny genuinely asks for.",
   },
   {
     image: "/placeholders/conversation.svg",
@@ -132,7 +132,7 @@ export default function AboutPage() {
             <p className="mt-7 max-w-xl text-lg leading-relaxed text-paper/75">
               Accendia is founder-led. The work draws on experience across education, workforce
               development, early talent, programme delivery, employer engagement, organisational
-              development, quality and partnerships — the disciplines that have to work together for
+              development, quality and partnerships the disciplines that have to work together for
               people, capability and opportunity to connect in practice.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
@@ -171,7 +171,7 @@ export default function AboutPage() {
           </Reveal>
           <Reveal delay={0.1}>
             <p className="font-serif text-[1.625rem] leading-[1.4] text-ink sm:text-[2rem]">
-              Accendia was founded to do the part of the work that usually gets left out — the
+              Accendia was founded to do the part of the work that usually gets left out the
               implementation.
             </p>
             <div className="mt-7 grid gap-5 text-lg leading-relaxed text-slate">
@@ -183,7 +183,7 @@ export default function AboutPage() {
                 the initial energy fades.
               </p>
               <p>
-                That is the gap Accendia was built to work in — and the reason the founder’s
+                That is the gap Accendia was built to work in and the reason the founder’s
                 background spans both strategic and delivery roles rather than one or the other.
               </p>
             </div>
@@ -219,13 +219,13 @@ export default function AboutPage() {
         <SectionHeading
           eyebrow="Career background"
           title="Experience, described accurately."
-          lead="Roles and engagements are listed only where the wording has been verified — past delivery in the past tense, with no implication of an ongoing relationship."
+          lead="Roles and engagements are listed only where the wording has been verified past delivery in the past tense, with no implication of an ongoing relationship."
         />
 
         <div className="mt-8 max-w-3xl">
           <Note>
             Draft build: the entries below are placeholders. Verified role titles, periods and
-            descriptions — including any previous delivery work — will be supplied by Accendia and
+            descriptions including any previous delivery work will be supplied by Accendia and
             dropped straight in.
           </Note>
         </div>
@@ -279,7 +279,7 @@ export default function AboutPage() {
         <SectionHeading
           eyebrow="Accendia's methodology"
           title="Discover. Design. Deliver. Develop."
-          lead="One method, applied consistently — and the reason strategy and implementation are treated here as a single piece of work."
+          lead="One method, applied consistently and the reason strategy and implementation are treated here as a single piece of work."
         />
         <div className="mt-16">
           <Methodology />

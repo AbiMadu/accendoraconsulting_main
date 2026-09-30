@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const readiness = [
   {
     title: "Interpret the requirement",
-    body: "Translate the standard, framework or accreditation criteria into what it actually asks of your organisation — in plain terms your teams can act on.",
+    body: "Translate the standard, framework or accreditation criteria into what it actually asks of your organisation in plain terms your teams can act on.",
   },
   {
     title: "Map what already exists",
@@ -37,7 +37,7 @@ export default function QualityPage() {
       <PageHero
         eyebrow="Quality & accreditation support"
         title="Quality that holds up when somebody looks closely."
-        lead="Accendia supports organisations to strengthen quality practice and prepare for accreditation or external standards — building the frameworks, evidence and review habits that stand up to scrutiny."
+        lead="Accendia supports organisations to strengthen quality practice and prepare for accreditation or external standards building the frameworks, evidence and review habits that stand up to scrutiny."
         image="/placeholders/quality.svg"
         alt="Abstract layered documents with a verification mark"
       />
@@ -74,7 +74,7 @@ export default function QualityPage() {
         <SectionHeading
           eyebrow="Possible work"
           title="Seven strands of quality support."
-          lead="Scaled to the organisation and the deadline in front of it — proportionate frameworks, not bureaucracy for its own sake."
+          lead="Scaled to the organisation and the deadline in front of it proportionate frameworks, not bureaucracy for its own sake."
         />
 
         <Stagger className="mt-16 grid gap-px bg-line sm:grid-cols-2 lg:grid-cols-3">
@@ -146,7 +146,7 @@ export default function QualityPage() {
               Continuous improvement, once the pressure lifts.
             </h2>
             <p className="mt-6 leading-relaxed text-slate">
-              Most quality work is driven by a date. The value comes from what survives it — review
+              Most quality work is driven by a date. The value comes from what survives it review
               habits that keep running, standards teams actually use, and evidence that stays current
               because it is produced by normal practice rather than a special effort.
             </p>

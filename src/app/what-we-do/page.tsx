@@ -38,7 +38,7 @@ export default function WhatWeDoPage() {
       <PageHero
         eyebrow="What we do"
         title="Strategic thinking, built to be delivered."
-        lead="Accendia works across people, capability and opportunity — designing and delivering the programmes, partnerships and quality practice that organisations need in order to move forward."
+        lead="Accendia works across people, capability and opportunity designing and delivering the programmes, partnerships and quality practice that organisations need in order to move forward."
         image="/placeholders/workplace.svg"
         alt="Abstract composition of workplace forms in navy and bronze"
       />
@@ -55,7 +55,7 @@ export default function WhatWeDoPage() {
             </p>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate">
               The starting point is rarely tidy. An organisation might come to Accendia with a
-              quality deadline, a workforce gap or an ambition to engage young people — and find
+              quality deadline, a workforce gap or an ambition to engage young people and find
               that the work spans all three. The method stays the same throughout.
             </p>
           </Reveal>

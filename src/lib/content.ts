@@ -20,7 +20,7 @@ export const pillars: Pillar[] = [
     word: "People",
     summary: "Young people, employees, leaders, talent.",
     detail:
-      "Organisations are built by the people inside them and the people who will join them next. Accendia works across both — developing existing talent and opening credible routes in for the workforce still growing up around us.",
+      "Organisations are built by the people inside them and the people who will join them next. Accendia works across both developing existing talent and opening credible routes in for the workforce still growing up around us.",
     covers: ["Young people", "Employees", "Leaders", "Future talent"],
   },
   {
@@ -41,7 +41,7 @@ export const pillars: Pillar[] = [
     word: "Opportunity",
     summary: "Employer engagement, partnerships, progression, access to experience.",
     detail:
-      "Opportunity is created deliberately. Accendia designs the partnerships, programmes and pathways through which people gain access to experience — and through which organisations gain access to talent.",
+      "Opportunity is created deliberately. Accendia designs the partnerships, programmes and pathways through which people gain access to experience and through which organisations gain access to talent.",
     covers: ["Employer engagement", "Partnerships", "Progression", "Access to experience"],
   },
 ];
@@ -95,7 +95,7 @@ export const services: Service[] = [
     slug: "people-future-talent",
     title: "People & future talent",
     lead: "Creating meaningful routes between young people and the world of work.",
-    body: "Accendia helps organisations design career experiences, employer engagement and early talent activity that are structured, purposeful and connected to progression — and helps employers think differently about how they engage the workforce still growing up around them.",
+    body: "Accendia helps organisations design career experiences, employer engagement and early talent activity that are structured, purposeful and connected to progression and helps employers think differently about how they engage the workforce still growing up around them.",
     services: [
       "Career insight experiences",
       "Employer engagement",
@@ -123,7 +123,7 @@ export const services: Service[] = [
     slug: "quality-accreditation",
     title: "Quality & accreditation support",
     lead: "Preparing organisations for external standards with evidence that holds up.",
-    body: "Accendia supports organisations to strengthen quality practice and prepare for accreditation or external standards — building the frameworks, evidence and review habits that stand up to scrutiny.",
+    body: "Accendia supports organisations to strengthen quality practice and prepare for accreditation or external standards building the frameworks, evidence and review habits that stand up to scrutiny.",
     services: [
       "Quality assurance",
       "Quality frameworks",
@@ -140,7 +140,7 @@ export const services: Service[] = [
     slug: "programmes-partnerships",
     title: "Programmes & partnerships",
     lead: "Turning ideas into structured programmes that can actually be delivered.",
-    body: "Ambition becomes valuable when it is deliverable. Accendia designs and manages programmes, builds partnerships and coordinates the stakeholders around them — then evaluates and improves what has been built.",
+    body: "Ambition becomes valuable when it is deliverable. Accendia designs and manages programmes, builds partnerships and coordinates the stakeholders around them then evaluates and improves what has been built.",
     services: [
       "Programme design",
       "Programme management",
@@ -180,7 +180,7 @@ export const youngPeopleAreas: YoungPeopleArea[] = [
   },
   {
     title: "Career insight experiences",
-    body: "Giving young people structured exposure to real organisations, roles, sectors and working environments — so that ideas about work are grounded in something they have actually seen.",
+    body: "Giving young people structured exposure to real organisations, roles, sectors and working environments so that ideas about work are grounded in something they have actually seen.",
     points: [
       "Exposure to real roles, teams and working environments",
       "Sector and route awareness beyond the obvious job titles",
@@ -189,7 +189,7 @@ export const youngPeopleAreas: YoungPeopleArea[] = [
   },
   {
     title: "Employer engagement",
-    body: "Helping organisations translate their expertise, culture and workplace into meaningful experiences for young people — without creating an unmanageable burden on teams.",
+    body: "Helping organisations translate their expertise, culture and workplace into meaningful experiences for young people without creating an unmanageable burden on teams.",
     points: [
       "Turning technical expertise into something a young person can engage with",
       "Practical models that fit around operational reality",
@@ -232,7 +232,7 @@ export const qualityPrinciples = [
   },
   {
     title: "Quality frameworks",
-    body: "Frameworks proportionate to the organisation — clear enough to follow, robust enough to withstand external review.",
+    body: "Frameworks proportionate to the organisation clear enough to follow, robust enough to withstand external review.",
   },
   {
     title: "Accreditation readiness",
@@ -240,7 +240,7 @@ export const qualityPrinciples = [
   },
   {
     title: "Evidence & compliance readiness",
-    body: "Evidence organised so it can be found, understood and defended — before a reviewer asks for it.",
+    body: "Evidence organised so it can be found, understood and defended before a reviewer asks for it.",
   },
   {
     title: "Programme review",

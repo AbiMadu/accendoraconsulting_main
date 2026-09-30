@@ -30,8 +30,7 @@ export function PageHero({
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <p className="eyebrow flex items-center gap-3 text-accent-soft">
-            <span aria-hidden className="h-px w-10 bg-current opacity-60" />
+          <p className="eyebrow flex items-center gap-3 text-accent-soft"> 
             {eyebrow}
           </p>
           <h1 className="mt-7 text-4xl leading-[1.1] sm:text-5xl lg:text-[3.375rem]">{title}</h1>

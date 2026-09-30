@@ -31,7 +31,7 @@ const heroSlides: HeroSlide[] = [
     eyebrow: "People & future talent",
     title: "The future workforce is already",
     emphasis: "growing up around us.",
-    body: "We help organisations create meaningful opportunities for young people to see, experience and understand the world of work — and help employers think differently about how they engage future talent.",
+    body: "We help organisations create meaningful opportunities for young people to see, experience and understand the world of work and help employers think differently about how they engage future talent.",
     cta: { href: "/young-people", label: "Young people & future talent" },
   },
   {
@@ -40,7 +40,7 @@ const heroSlides: HeroSlide[] = [
     eyebrow: "Strategy into delivery",
     title: "Good ideas need more than",
     emphasis: "enthusiasm.",
-    body: "They need structure, ownership and delivery. Accendia works at the point where strategy meets implementation — turning ambition into a programme, partnership or pathway that can be delivered, evaluated and improved.",
+    body: "They need structure, ownership and delivery. Accendia works at the point where strategy meets implementation turning ambition into a programme, partnership or pathway that can be delivered, evaluated and improved.",
     cta: { href: "/what-we-do", label: "How we work" },
   },
 ];
@@ -79,7 +79,7 @@ export default function HomePage() {
               them, and the <span className="text-accent">opportunity</span> that connects the two.
             </p>
             <p className="mt-8 max-w-2xl text-lg leading-relaxed text-slate">
-              That architecture runs through every engagement — whether the work begins with a
+              That architecture runs through every engagement whether the work begins with a
               young person’s first experience of a workplace, a quality framework facing external
               review, or a programme that needs to move from intention to delivery.
             </p>
@@ -204,7 +204,7 @@ export default function HomePage() {
             <p className="mt-6 text-lg leading-relaxed text-slate">
               Accendia brings together experience across education, workforce development, early
               talent, programme delivery, employer engagement, organisational development, quality
-              and partnerships — the disciplines that have to work together for this kind of work
+              and partnerships the disciplines that have to work together for this kind of work
               to succeed.
             </p>
             <p className="mt-5 leading-relaxed text-slate">

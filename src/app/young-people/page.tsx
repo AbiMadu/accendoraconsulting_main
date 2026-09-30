@@ -41,7 +41,7 @@ const audiences = [
   {
     eyebrow: "For employers",
     title: "Engage future talent without overwhelming your teams.",
-    body: "Employers rarely lack goodwill towards young people — they lack a workable model. Accendia helps translate what an organisation actually does into experiences young people can engage with, sized to fit operational reality and owned properly inside the business.",
+    body: "Employers rarely lack goodwill towards young people they lack a workable model. Accendia helps translate what an organisation actually does into experiences young people can engage with, sized to fit operational reality and owned properly inside the business.",
     points: [
       "A model proportionate to your capacity and sector",
       "Clear internal roles, so engagement is not one person's side project",
@@ -54,7 +54,7 @@ const audiences = [
   {
     eyebrow: "For schools, colleges & providers",
     title: "Employer engagement that lasts longer than one cohort.",
-    body: "Education organisations need employer relationships that are dependable, not opportunistic. Accendia helps build the bridges between education and employers — with shared expectations, defined points of contact and a structure designed to continue beyond a single academic year.",
+    body: "Education organisations need employer relationships that are dependable, not opportunistic. Accendia helps build the bridges between education and employers with shared expectations, defined points of contact and a structure designed to continue beyond a single academic year.",
     points: [
       "Purposeful introductions rather than cold outreach",
       "Shared expectations and defined roles on both sides",
@@ -89,7 +89,7 @@ export default function YoungPeoplePage() {
             </p>
             <p className="mt-8 max-w-2xl text-lg leading-relaxed text-slate">
               The difference is design. A meaningful experience has a purpose, an owner and a
-              connection to what happens next — and it is safeguarded and age-appropriate from the
+              connection to what happens next and it is safeguarded and age-appropriate from the
               outset. That is the work Accendia does: turning employer goodwill and education
               ambition into something structured enough to be repeated, evaluated and improved.
             </p>
@@ -105,7 +105,7 @@ export default function YoungPeoplePage() {
         <SectionHeading
           eyebrow="What this can include"
           title="Seven connected areas of work."
-          lead="Engagements are usually a combination rather than a single item — each area strengthens the others."
+          lead="Engagements are usually a combination rather than a single item each area strengthens the others."
         />
 
         <Stagger className="mt-16 grid gap-px bg-line lg:grid-cols-2">
@@ -136,7 +136,7 @@ export default function YoungPeoplePage() {
           tone="light"
           eyebrow="The distinction that matters"
           title="Structured and purposeful, rather than simply available."
-          lead="Meaningful experiences are connected to skills and progression. Anything less is activity without outcome — and young people can tell the difference."
+          lead="Meaningful experiences are connected to skills and progression. Anything less is activity without outcome and young people can tell the difference."
         />
 
         <div className="mt-16 grid gap-px bg-paper/15 lg:grid-cols-2">
@@ -188,7 +188,7 @@ export default function YoungPeoplePage() {
               Work with school-aged young people carries responsibilities that cannot be retro-fitted.
               Accendia designs career experiences, workplace visits and mentorship models so that
               safeguarding, risk management and age-appropriateness are built into the structure of
-              the activity — supervision, boundaries, expectations and escalation understood by
+              the activity supervision, boundaries, expectations and escalation understood by
               everyone involved before anything begins.
             </p>
             <div className="mt-8">
@@ -253,7 +253,7 @@ export default function YoungPeoplePage() {
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-slate">
                 Accendia connects early experiences to the confidence, soft skills and practical
-                next steps young people need — and builds in the reflection that lets them explain
+                next steps young people need and builds in the reflection that lets them explain
                 what they did and what they learned. For employers, the same structure produces a
                 clearer view of emerging talent and a route that can be developed over time.
               </p>
@@ -274,7 +274,7 @@ export default function YoungPeoplePage() {
       <CTABand
         eyebrow="Future talent"
         title="Let's explore what could be possible."
-        body="If you are thinking about how your organisation engages young people — or how to make existing activity more purposeful — we'd welcome a conversation about what you're trying to achieve."
+        body="If you are thinking about how your organisation engages young people or how to make existing activity more purposeful we'd welcome a conversation about what you're trying to achieve."
       />
     </>
   );

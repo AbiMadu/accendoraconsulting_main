@@ -149,7 +149,7 @@ export default function AboutPage() {
           <Reveal delay={0.1} direction="right">
             <div>
               <Figure
-                src="/placeholders/founder.jpg"
+                src="/placeholders/founder.jpeg"
                 alt={`Portrait placeholder for ${site.founder.name}`}
                 ratio="4/5"
                 sizes="(min-width: 1024px) 45vw, 100vw"

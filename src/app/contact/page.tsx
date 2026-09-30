@@ -3,7 +3,7 @@ import { ContactForm } from "@/components/ContactForm";
 import { Methodology } from "@/components/Methodology";
 import { Reveal, Stagger, StaggerItem } from "@/components/motion/Reveal";
 import { Arrow, Eyebrow, Figure, Section, SectionHeading } from "@/components/ui";
-import { site } from "@/lib/site";
+import { legal, site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -145,7 +145,8 @@ export default function ContactPage() {
               <div className="mt-10 border-t border-line pt-8 text-sm leading-relaxed text-muted">
                 <p>{site.name}</p>
                 <p className="mt-1">
-                  Registered in England &amp; Wales · Company number {site.companyNumber}
+                  Registered in {legal.countryOfRegistration} · Company number{" "}
+                  {site.companyNumber}
                 </p>
               </div>
             </div>

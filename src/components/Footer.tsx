@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { nav, site } from "@/lib/site";
+import { legal, legalNav, nav, site } from "@/lib/site";
 import { Logo } from "@/components/Logo";
 import { Arrow } from "@/components/ui";
 
@@ -56,12 +56,23 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 flex flex-col gap-3 border-t border-paper/15 pt-8 text-xs text-paper/45 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-16 flex flex-col gap-4 border-t border-paper/15 pt-8 text-xs text-paper/45 sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © {new Date().getFullYear()} {site.name}. Registered in England &amp; Wales,
-            company number {site.companyNumber}.
+            © {new Date().getFullYear()} {site.name}. Registered in{" "}
+            {legal.countryOfRegistration}, company number {site.companyNumber}.
           </p>
-          <p>Established {site.established}.</p>
+          <nav aria-label="Legal" className="flex flex-wrap items-center gap-x-6 gap-y-2">
+            {legalNav.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="transition-colors hover:text-paper"
+              >
+                {item.label}
+              </Link>
+            ))}
+            <span>Established {site.established}.</span>
+          </nav>
         </div>
       </div>
     </footer>

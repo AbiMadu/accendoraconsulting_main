@@ -5,7 +5,7 @@ import { Methodology } from "@/components/Methodology";
 import { Reveal, Stagger, StaggerItem } from "@/components/motion/Reveal";
 import { Arrow, Button, Eyebrow, Figure, Note, Section, SectionHeading } from "@/components/ui";
 import { founderAreas } from "@/lib/content";
-import { site } from "@/lib/site";
+import { legal, site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About Accendora",
@@ -293,8 +293,11 @@ export default function AboutPage() {
             <p className="eyebrow text-muted">Company details</p>
             <p className="mt-4 font-serif text-2xl text-ink">{site.name}</p>
             <p className="mt-2 text-sm text-slate">
-              Registered in England &amp; Wales · Company number {site.companyNumber} · Established{" "}
-              {site.established}
+              Registered in {legal.countryOfRegistration} · Company number {site.companyNumber} ·
+              Established {site.established}
+            </p>
+            <p className="mt-2 text-sm text-slate">
+              Registered office: {legal.registeredAddress}
             </p>
           </div>
           <Button href="/contact" variant="secondary">

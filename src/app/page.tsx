@@ -190,7 +190,7 @@ export default function HomePage() {
         <div className="grid items-center gap-14 lg:grid-cols-[0.85fr_1.15fr]">
           <Reveal direction="left">
             <Figure
-              src="/placeholders/founder.svg"
+              src="/placeholders/founder.jpeg"
               alt="Portrait placeholder for the founder of Accendora"
               ratio="4/5"
               sizes="(min-width: 1024px) 35vw, 100vw"

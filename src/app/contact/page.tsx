@@ -8,7 +8,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Let's explore what could be possible. Book a conversation with Accendia about future talent, workforce capability, quality, programmes or partnerships.",
+    "Let's explore what could be possible. Book a conversation with Accendora about future talent, workforce capability, quality, programmes or partnerships.",
 };
 
 const routes = [
@@ -20,7 +20,7 @@ const routes = [
     external: true,
   },
   {
-    label: "Email Accendia",
+    label: "Email Accendora",
     detail: site.email,
     action: "Write to us",
     href: `mailto:${site.email}`,
@@ -37,7 +37,7 @@ const routes = [
 
 const expect = [
   "A conversation about what you are trying to achieve, not a pitch",
-  "An honest view of whether Accendia is the right fit for it",
+  "An honest view of whether Accendora is the right fit for it",
   "A clear sense of what a first piece of work could look like",
   "A written outline of scope, ownership and sequence before anything begins",
 ];

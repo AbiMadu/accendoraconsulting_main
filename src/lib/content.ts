@@ -3,7 +3,7 @@
  *
  * Copy rules (see CLAUDE.md): no organisation names, no logos, no claimed clients or
  * partnerships, no invented credentials or statistics, and never any wording that positions
- * Accendia as an accrediting body.
+ * Accendora as an accrediting body.
  */
 
 export type Pillar = {
@@ -20,7 +20,7 @@ export const pillars: Pillar[] = [
     word: "People",
     summary: "Young people, employees, leaders, talent.",
     detail:
-      "Organisations are built by the people inside them and the people who will join them next. Accendia works across both developing existing talent and opening credible routes in for the workforce still growing up around us.",
+      "Organisations are built by the people inside them and the people who will join them next. Accendora works across both developing existing talent and opening credible routes in for the workforce still growing up around us.",
     covers: ["Young people", "Employees", "Leaders", "Future talent"],
   },
   {
@@ -28,7 +28,7 @@ export const pillars: Pillar[] = [
     word: "Capability",
     summary: "Workforce development, quality, accreditation, organisational capability.",
     detail:
-      "Capability is what allows an organisation to deliver consistently, meet external standards and keep improving. Accendia strengthens the structures, skills and quality practice that make that possible.",
+      "Capability is what allows an organisation to deliver consistently, meet external standards and keep improving. Accendora strengthens the structures, skills and quality practice that make that possible.",
     covers: [
       "Workforce development",
       "Quality assurance",
@@ -41,7 +41,7 @@ export const pillars: Pillar[] = [
     word: "Opportunity",
     summary: "Employer engagement, partnerships, progression, access to experience.",
     detail:
-      "Opportunity is created deliberately. Accendia designs the partnerships, programmes and pathways through which people gain access to experience and through which organisations gain access to talent.",
+      "Opportunity is created deliberately. Accendora designs the partnerships, programmes and pathways through which people gain access to experience and through which organisations gain access to talent.",
     covers: ["Employer engagement", "Partnerships", "Progression", "Access to experience"],
   },
 ];
@@ -95,7 +95,7 @@ export const services: Service[] = [
     slug: "people-future-talent",
     title: "People & future talent",
     lead: "Creating meaningful routes between young people and the world of work.",
-    body: "Accendia helps organisations design career experiences, employer engagement and early talent activity that are structured, purposeful and connected to progression and helps employers think differently about how they engage the workforce still growing up around them.",
+    body: "Accendora helps organisations design career experiences, employer engagement and early talent activity that are structured, purposeful and connected to progression and helps employers think differently about how they engage the workforce still growing up around them.",
     services: [
       "Career insight experiences",
       "Employer engagement",
@@ -109,7 +109,7 @@ export const services: Service[] = [
     slug: "workforce-capability",
     title: "Workforce & organisational capability",
     lead: "Strengthening the capability that allows an organisation to deliver.",
-    body: "Capability work sits between people and operations. Accendia supports organisations to develop their workforce, sharpen how teams and functions work, and mobilise activity so that intent becomes delivery.",
+    body: "Capability work sits between people and operations. Accendora supports organisations to develop their workforce, sharpen how teams and functions work, and mobilise activity so that intent becomes delivery.",
     services: [
       "Workforce development",
       "Organisational development",
@@ -123,7 +123,7 @@ export const services: Service[] = [
     slug: "quality-accreditation",
     title: "Quality & accreditation support",
     lead: "Preparing organisations for external standards with evidence that holds up.",
-    body: "Accendia supports organisations to strengthen quality practice and prepare for accreditation or external standards building the frameworks, evidence and review habits that stand up to scrutiny.",
+    body: "Accendora supports organisations to strengthen quality practice and prepare for accreditation or external standards building the frameworks, evidence and review habits that stand up to scrutiny.",
     services: [
       "Quality assurance",
       "Quality frameworks",
@@ -134,13 +134,13 @@ export const services: Service[] = [
       "Continuous improvement",
     ],
     href: "/quality-accreditation",
-    note: "Accendia is not an accrediting body. We support organisations through accreditation processes and prepare them for external review.",
+    note: "Accendora is not an accrediting body. We support organisations through accreditation processes and prepare them for external review.",
   },
   {
     slug: "programmes-partnerships",
     title: "Programmes & partnerships",
     lead: "Turning ideas into structured programmes that can actually be delivered.",
-    body: "Ambition becomes valuable when it is deliverable. Accendia designs and manages programmes, builds partnerships and coordinates the stakeholders around them then evaluates and improves what has been built.",
+    body: "Ambition becomes valuable when it is deliverable. Accendora designs and manages programmes, builds partnerships and coordinates the stakeholders around them then evaluates and improves what has been built.",
     services: [
       "Programme design",
       "Programme management",
@@ -269,10 +269,10 @@ export const founderAreas = [
 ];
 
 export const differentiator = {
-  eyebrow: "The Accendia difference",
+  eyebrow: "The Accendora difference",
   title: "From intention to implementation",
   body: [
     "Good ideas need more than enthusiasm. They need structure, ownership and delivery.",
-    "Accendia works at the point where strategy meets implementation, helping organisations turn an ambition into a practical programme, partnership or pathway that can be delivered, evaluated and improved.",
+    "Accendora works at the point where strategy meets implementation, helping organisations turn an ambition into a practical programme, partnership or pathway that can be delivered, evaluated and improved.",
   ],
 };

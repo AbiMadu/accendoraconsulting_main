@@ -17,16 +17,16 @@ import { site } from "@/lib/site";
 
 const heroSlides: HeroSlide[] = [
   {
-    image: "/placeholders/hero-01.svg",
+    image: "/placeholders/hero-01.jpeg",
     alt: "Abstract composition of ascending lines meeting a bronze horizon",
     eyebrow: site.pillars,
     title: "Building stronger organisations.",
     emphasis: "Creating pathways to opportunity.",
-    body: "Accendia works with organisations to develop people, programmes and partnerships that connect talent, capability and opportunity.",
+    body: "Accendora works with organisations to develop people, programmes and partnerships that connect talent, capability and opportunity.",
     cta: { href: "/what-we-do", label: "What we do" },
   },
   {
-    image: "/placeholders/hero-02.svg",
+    image: "/placeholders/hero-02.jpeg",
     alt: "Abstract composition of rising vertical forms",
     eyebrow: "People & future talent",
     title: "The future workforce is already",
@@ -35,27 +35,27 @@ const heroSlides: HeroSlide[] = [
     cta: { href: "/young-people", label: "Young people & future talent" },
   },
   {
-    image: "/placeholders/hero-03.svg",
+    image: "/placeholders/hero-03.jpeg",
     alt: "Abstract composition of concentric arcs and measured forms",
     eyebrow: "Strategy into delivery",
     title: "Good ideas need more than",
     emphasis: "enthusiasm.",
-    body: "They need structure, ownership and delivery. Accendia works at the point where strategy meets implementation turning ambition into a programme, partnership or pathway that can be delivered, evaluated and improved.",
+    body: "They need structure, ownership and delivery. Accendora works at the point where strategy meets implementation turning ambition into a programme, partnership or pathway that can be delivered, evaluated and improved.",
     cta: { href: "/what-we-do", label: "How we work" },
   },
 ];
 
 const pillarImages: Record<string, { src: string; alt: string }> = {
   people: {
-    src: "/placeholders/people.svg",
+    src: "/placeholders/people.jpeg",
     alt: "Abstract grouping of figures representing people and talent",
   },
   capability: {
-    src: "/placeholders/capability.svg",
+    src: "/placeholders/capability.jpeg",
     alt: "Abstract grid with a rising plotted line representing capability",
   },
   opportunity: {
-    src: "/placeholders/opportunity.svg",
+    src: "/placeholders/opportunity.jpeg",
     alt: "Abstract converging pathways rising toward a bronze point",
   },
 };
@@ -73,7 +73,7 @@ export default function HomePage() {
           </Reveal>
           <Reveal delay={0.1}>
             <p className="font-serif text-[1.75rem] leading-[1.35] text-ink sm:text-[2.125rem] lg:text-[2.5rem]">
-              Accendia exists at the meeting point of three things:{" "}
+              Accendora exists at the meeting point of three things:{" "}
               <span className="text-accent">people</span>, the{" "}
               <span className="text-accent">capability</span> of the organisations that employ
               them, and the <span className="text-accent">opportunity</span> that connects the two.
@@ -135,7 +135,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="What we do"
             title="Four areas of work, one way of working."
-            lead="Accendia is a strategic and delivery-focused consultancy. The work is practical: designed to be implemented, not simply recommended."
+            lead="Accendora is a strategic and delivery-focused consultancy. The work is practical: designed to be implemented, not simply recommended."
           />
           <Button href="/what-we-do" variant="secondary">
             All services
@@ -176,7 +176,7 @@ export default function HomePage() {
       {/* -------------------------------------------------------- methodology */}
       <Section tone="paper">
         <SectionHeading
-          eyebrow="Accendia's methodology"
+          eyebrow="Accendora's methodology"
           title="Discover. Design. Deliver. Develop."
           lead="A single, flexible method that carries an engagement from diagnosis and strategic thinking through to implementation and continuous improvement."
         />
@@ -191,18 +191,18 @@ export default function HomePage() {
           <Reveal direction="left">
             <Figure
               src="/placeholders/founder.svg"
-              alt="Portrait placeholder for the founder of Accendia"
+              alt="Portrait placeholder for the founder of Accendora"
               ratio="4/5"
               sizes="(min-width: 1024px) 35vw, 100vw"
             />
           </Reveal>
           <Reveal delay={0.1} direction="right">
-            <Eyebrow>About Accendia</Eyebrow>
+            <Eyebrow>About Accendora</Eyebrow>
             <h2 className="mt-5 text-3xl leading-[1.15] sm:text-4xl">
               A founder-led consultancy, built on delivery experience.
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-slate">
-              Accendia brings together experience across education, workforce development, early
+              Accendora brings together experience across education, workforce development, early
               talent, programme delivery, employer engagement, organisational development, quality
               and partnerships the disciplines that have to work together for this kind of work
               to succeed.
@@ -213,7 +213,7 @@ export default function HomePage() {
             </p>
             <div className="mt-9">
               <Button href="/about" variant="secondary">
-                Who is behind Accendia
+                Who is behind Accendora
                 <Arrow />
               </Button>
             </div>

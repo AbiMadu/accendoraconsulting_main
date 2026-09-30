@@ -1,4 +1,4 @@
-# Accendia Consulting Ltd — website
+# Accendora Consulting Ltd — website
 
 Six-page B2B consultancy site. Next.js (App Router, TypeScript), Tailwind CSS v4,
 Framer Motion for animation and page transitions, Embla for the carousels.
@@ -17,12 +17,12 @@ npm run build
 | `/what-we-do` | The four service areas in full |
 | `/young-people` | Young People & Future Talent |
 | `/quality-accreditation` | Quality & Accreditation support |
-| `/about` | About Accendia (founder-led, with an experience carousel) |
+| `/about` | About Accendora (founder-led, with an experience carousel) |
 | `/contact` | Contact — three routes plus enquiry form |
 
 ## Before launch — what still needs real content
 
-1. **`src/lib/site.ts`** — business email, LinkedIn URL (the Accendia company page has still to be
+1. **`src/lib/site.ts`** — business email, LinkedIn URL (the Accendora company page has still to be
    created), and the booking link. Every page reads these from here.
 2. **Founder biography** — `src/app/about/page.tsx` contains `careerPlaceholders`, three
    clearly-marked slots. Nothing has been invented: supply verified role titles, periods and
@@ -42,7 +42,7 @@ npm run build
 
 `CLAUDE.md` holds the positioning, tone and the non-negotiable credibility rules — no organisation
 names or logos anywhere, no claimed clients or partnerships, no invented credentials or statistics,
-and never any wording that positions Accendia as an accrediting body. Read it before editing copy.
+and never any wording that positions Accendora as an accrediting body. Read it before editing copy.
 
 ## Structure
 

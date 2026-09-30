@@ -38,7 +38,7 @@ export default function WhatWeDoPage() {
       <PageHero
         eyebrow="What we do"
         title="Strategic thinking, built to be delivered."
-        lead="Accendia works across people, capability and opportunity designing and delivering the programmes, partnerships and quality practice that organisations need in order to move forward."
+        lead="Accendora works across people, capability and opportunity designing and delivering the programmes, partnerships and quality practice that organisations need in order to move forward."
         image="/placeholders/workplace.svg"
         alt="Abstract composition of workplace forms in navy and bronze"
       />
@@ -54,7 +54,7 @@ export default function WhatWeDoPage() {
               Four areas of work. Most engagements begin in one and draw on the others.
             </p>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate">
-              The starting point is rarely tidy. An organisation might come to Accendia with a
+              The starting point is rarely tidy. An organisation might come to Accendora with a
               quality deadline, a workforce gap or an ambition to engage young people and find
               that the work spans all three. The method stays the same throughout.
             </p>
@@ -145,7 +145,7 @@ export default function WhatWeDoPage() {
 
       <Section tone="paper">
         <SectionHeading
-          eyebrow="Accendia's methodology"
+          eyebrow="Accendora's methodology"
           title="The same four stages, whatever the brief."
           lead="Discover, Design, Deliver, Develop. Flexible enough to apply across people and future talent, workforce and organisational capability, programmes and partnerships, and quality and accreditation support."
         />

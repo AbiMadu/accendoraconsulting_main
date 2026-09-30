@@ -41,7 +41,7 @@ export function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
     <section
       className="relative isolate overflow-hidden bg-ink text-paper"
       aria-roledescription="carousel"
-      aria-label="Accendora introduction"
+      aria-label="Accendia introduction"
     >
       {/* Slides: the track carries only imagery, so copy can cross-fade independently. */}
       <div className="absolute inset-0" ref={emblaRef}>

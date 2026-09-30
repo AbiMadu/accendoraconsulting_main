@@ -37,7 +37,7 @@ export default function QualityPage() {
       <PageHero
         eyebrow="Quality & accreditation support"
         title="Quality that holds up when somebody looks closely."
-        lead="Accendora supports organisations to strengthen quality practice and prepare for accreditation or external standards building the frameworks, evidence and review habits that stand up to scrutiny."
+        lead="Accendia supports organisations to strengthen quality practice and prepare for accreditation or external standards building the frameworks, evidence and review habits that stand up to scrutiny."
         image="/placeholders/quality.jpg"
         alt="Abstract layered documents with a verification mark"
       />
@@ -50,7 +50,7 @@ export default function QualityPage() {
           </Reveal>
           <Reveal delay={0.1}>
             <p className="font-serif text-2xl leading-snug text-ink sm:text-[1.875rem]">
-              Accendora is not an accrediting body. We prepare organisations for accreditation and
+              Accendia is not an accrediting body. We prepare organisations for accreditation and
               support them through the process.
             </p>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate">
@@ -151,7 +151,7 @@ export default function QualityPage() {
               because it is produced by normal practice rather than a special effort.
             </p>
             <p className="mt-5 leading-relaxed text-slate">
-              Accendora builds quality practice with that second horizon in mind, so the next external
+              Accendia builds quality practice with that second horizon in mind, so the next external
               review starts from a much stronger position than the last one.
             </p>
             <ul className="mt-8 grid gap-3 border-t border-line pt-8 text-[0.9375rem] text-ink">
@@ -174,7 +174,7 @@ export default function QualityPage() {
       {/* ------------------------------------------------------- method applied */}
       <Section tone="sand">
         <SectionHeading
-          eyebrow="Accendora's methodology"
+          eyebrow="Accendia's methodology"
           title="The same four stages, applied to quality."
           lead="Discover the real position. Design a proportionate framework. Deliver the change. Develop the habit."
         />

@@ -41,10 +41,10 @@ export type LegalDocument = {
 export const privacyPolicy: LegalDocument = {
   eyebrow: "Legal",
   title: "Privacy policy",
-  lead: "How Accendora collects, uses and protects personal information written plainly, and limited to what actually happens.",
+  lead: "How Accendia collects, uses and protects personal information written plainly, and limited to what actually happens.",
   updated: legal.privacyUpdated,
   intro: [
-    `${site.name} ("Accendora", "we", "us") is the data controller for the personal information described in this policy. We are a company registered in England and Wales, company number ${site.companyNumber}, with a registered office at ${legal.registeredAddress}.`,
+    `${site.name} ("Accendia", "we", "us") is the data controller for the personal information described in this policy. We are a company registered in England and Wales, company number ${site.companyNumber}, with a registered office at ${legal.registeredAddress}.`,
     `This policy explains what personal information we collect, why we collect it, how long we keep it and what rights you have. It covers this website and the professional relationships we hold with enquirers, clients, contacts and suppliers. It is written to meet our obligations under the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018.`,
   ],
   sections: [
@@ -156,7 +156,7 @@ export const privacyPolicy: LegalDocument = {
       blocks: [
         {
           kind: "p",
-          text: "Accendora is a small, founder-led consultancy, and personal information is handled by very few people. We share it only where there is a clear reason to.",
+          text: "Accendia is a small, founder-led consultancy, and personal information is handled by very few people. We share it only where there is a clear reason to.",
         },
         {
           kind: "list",
@@ -255,10 +255,10 @@ export const privacyPolicy: LegalDocument = {
 export const termsOfBusiness: LegalDocument = {
   eyebrow: "Legal",
   title: "Terms of business",
-  lead: "The standard basis on which Accendora is engaged scope, ownership, payment and responsibility, set out before any work begins.",
+  lead: "The standard basis on which Accendia is engaged scope, ownership, payment and responsibility, set out before any work begins.",
   updated: legal.termsUpdated,
   intro: [
-    `These terms set out the basis on which ${site.name} ("Accendora", "we", "us") provides consultancy services to a client ("you"). They apply to every engagement unless we have agreed something different in writing.`,
+    `These terms set out the basis on which ${site.name} ("Accendia", "we", "us") provides consultancy services to a client ("you"). They apply to every engagement unless we have agreed something different in writing.`,
     `They are deliberately plain. The intention is that the shape of the work, who owns what, and what each party is responsible for are all visible before anything starts, rather than discovered afterwards.`,
   ],
   sections: [
@@ -334,7 +334,7 @@ export const termsOfBusiness: LegalDocument = {
         },
         {
           kind: "note",
-          text: "Accendora provides accreditation support and readiness work. We are not an awarding organisation, accrediting body or regulator, we do not award or confer accreditation, and we cannot guarantee that any external body will reach a particular decision. Our role is to help you prepare, evidence and strengthen your position.",
+          text: "Accendia provides accreditation support and readiness work. We are not an awarding organisation, accrediting body or regulator, we do not award or confer accreditation, and we cannot guarantee that any external body will reach a particular decision. Our role is to help you prepare, evidence and strengthen your position.",
         },
       ],
     },
@@ -404,7 +404,7 @@ export const termsOfBusiness: LegalDocument = {
         },
         {
           kind: "p",
-          text: "Accendora retains ownership of its own pre-existing and underlying materials methodologies, frameworks, tools, templates and know-how, including the Discover, Design, Deliver and Develop methodology together with anything we develop generally in the course of our practice. Where a Deliverable includes such material, you receive a non-exclusive, perpetual licence to use it as part of that Deliverable.",
+          text: "Accendia retains ownership of its own pre-existing and underlying materials methodologies, frameworks, tools, templates and know-how, including the Discover, Design, Deliver and Develop methodology together with anything we develop generally in the course of our practice. Where a Deliverable includes such material, you receive a non-exclusive, perpetual licence to use it as part of that Deliverable.",
         },
         {
           kind: "p",
@@ -474,7 +474,7 @@ export const termsOfBusiness: LegalDocument = {
         },
         {
           kind: "p",
-          text: `Accendora maintains professional indemnity insurance. Cover: ${legal.professionalIndemnity}. Details are available on request.`,
+          text: `Accendia maintains professional indemnity insurance. Cover: ${legal.professionalIndemnity}. Details are available on request.`,
         },
       ],
     },

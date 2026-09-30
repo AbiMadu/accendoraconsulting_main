@@ -1,8 +1,8 @@
-# Accendora logo files
+# Accendia logo files
 
-The mark is a sharp apex — ascent, and the "A" of Accendora — crossed by a bronze
+The mark is a sharp apex — ascent, and the "A" of Accendia — crossed by a bronze
 bar that runs on past the form: the pathway continuing outward. The lockup sets
-**Accendora** over a widely tracked **CONSULTING** in bronze.
+**Accendia** over a widely tracked **CONSULTING** in bronze.
 
 All artwork is pure vector. The wordmark is **Source Serif 4 Semibold** and the
 CONSULTING line **Inter Medium**, both converted to outlines, so nothing depends on
@@ -10,12 +10,12 @@ a font being installed anywhere — safe for print, signage and third-party use.
 
 | File | Use |
 | --- | --- |
-| `accendora-logo.svg` | Primary horizontal lockup. Light backgrounds. |
-| `accendora-logo-reversed.svg` | Same lockup for dark/ink backgrounds. |
-| `accendora-logo-mono.svg` | One colour, painted with `currentColor` — inherits the surrounding text colour in HTML; set a single fill for print. |
-| `accendora-logo-stacked.svg` | Stacked lockup with the People \| Capability \| Opportunity line. Covers, title slides, documents. |
-| `accendora-mark.svg` | Mark alone, on a transparent field. |
-| `accendora-mark-enclosed.svg` | Mark in an ink tile — avatars, favicons, app icons. Also copied to `src/app/icon.svg`. |
+| `accendia-logo.svg` | Primary horizontal lockup. Light backgrounds. |
+| `accendia-logo-reversed.svg` | Same lockup for dark/ink backgrounds. |
+| `accendia-logo-mono.svg` | One colour, painted with `currentColor` — inherits the surrounding text colour in HTML; set a single fill for print. |
+| `accendia-logo-stacked.svg` | Stacked lockup with the People \| Capability \| Opportunity line. Covers, title slides, documents. |
+| `accendia-mark.svg` | Mark alone, on a transparent field. |
+| `accendia-mark-enclosed.svg` | Mark in an ink tile — avatars, favicons, app icons. Also copied to `src/app/icon.svg`. |
 
 ## Colours
 
@@ -35,7 +35,7 @@ a font being installed anywhere — safe for print, signage and third-party use.
   Enclosed mark: **16 px**.
 - Do not recolour the bar, stretch the lockup, retrack the CONSULTING line, add
   effects, or set the wordmark in another face. For a single-colour application use
-  `accendora-logo-mono.svg`.
+  `accendia-logo-mono.svg`.
 
 The in-app header logo lives in `src/components/Logo.tsx`. It repeats the same mark
 path data and sets the two text lines live rather than as outlines — change both
@@ -51,13 +51,13 @@ third-party portals.
 
 | Pattern | Sizes |
 | --- | --- |
-| `accendora-logo-{600,1200,2400}w.png` | Horizontal lockup, ink on transparent |
-| `accendora-logo-reversed-{600,1200,2400}w.png` | Horizontal lockup, paper on transparent — for dark backgrounds |
-| `accendora-logo-mono-ink-{600,1200,2400}w.png` | Single-colour ink |
-| `accendora-logo-mono-white-{600,1200,2400}w.png` | Single-colour white — over photography |
-| `accendora-logo-stacked-{800,1600,3200}w.png` | Stacked lockup |
-| `accendora-mark-{128,256,512,1024}.png` | Mark alone |
-| `accendora-mark-enclosed-{16,32,48,64,128,180,192,256,512,1024}.png` | Ink tile — favicons, avatars, app icons (180 = iOS, 192 = Android) |
+| `accendia-logo-{600,1200,2400}w.png` | Horizontal lockup, ink on transparent |
+| `accendia-logo-reversed-{600,1200,2400}w.png` | Horizontal lockup, paper on transparent — for dark backgrounds |
+| `accendia-logo-mono-ink-{600,1200,2400}w.png` | Single-colour ink |
+| `accendia-logo-mono-white-{600,1200,2400}w.png` | Single-colour white — over photography |
+| `accendia-logo-stacked-{800,1600,3200}w.png` | Stacked lockup |
+| `accendia-mark-{128,256,512,1024}.png` | Mark alone |
+| `accendia-mark-enclosed-{16,32,48,64,128,180,192,256,512,1024}.png` | Ink tile — favicons, avatars, app icons (180 = iOS, 192 = Android) |
 
 Pick a file at or above the size you will display it at; never scale a PNG up. To
 regenerate or add a size, re-render from the SVG rather than resampling a PNG.

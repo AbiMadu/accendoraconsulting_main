@@ -3,8 +3,8 @@
  * Change these here — they are never hardcoded in pages.
  */
 export const site = {
-  name: "Accendora Consulting Ltd",
-  shortName: "Accendora",
+  name: "Accendia Consulting Ltd",
+  shortName: "Accendia",
   companyNumber: "17479445",
   established: "September 2026",
   countryOfRegistration: "England & Wales",
@@ -12,11 +12,11 @@ export const site = {
   tagline: "Building stronger organisations. Creating pathways to opportunity.",
   pillars: "People | Capability | Opportunity",
   // TODO: replace with the live business email address.
-  email: "hello@accendoraconsulting.co.uk",
-  // TODO: replace once the Accendora LinkedIn company page is created.
-  linkedin: "https://www.linkedin.com/company/accendora-consulting",
+  email: "hello@accendiaconsulting.co.uk",
+  // TODO: replace once the Accendia LinkedIn company page is created.
+  linkedin: "https://www.linkedin.com/company/accendia-consulting",
   // TODO: replace with a scheduling link (Calendly / MS Bookings) when live.
-  bookingUrl: "https://calendly.com/accendora/intro-conversation",
+  bookingUrl: "https://calendly.com/accendia/intro-conversation",
   founder: {
     name: "Abiola Madubata",
     role: "Founder & Principal Consultant",
@@ -27,7 +27,7 @@ export const site = {
  * Editable legal values. Every figure, address and date used in the Privacy Policy
  * and Terms of Business is set here — never inline in the documents themselves.
  *
- * Items marked TODO are placeholders and must be confirmed by Accendora before the
+ * Items marked TODO are placeholders and must be confirmed by Accendia before the
  * site goes live. Do not replace a TODO with a plausible guess.
  */
 export const legal = {
@@ -35,7 +35,7 @@ export const legal = {
   // TODO: confirm the registered office address as filed at Companies House.
   registeredAddress: "Arundel, West Sussex & Wales",
   // The controller for personal data collected through this site.
-  dataController: "Accendora Consulting Ltd",
+  dataController: "Accendia Consulting Ltd",
   // TODO: confirm the ICO data protection register entry number, if registered.
   icoRegistration: "[ICO registration number to be confirmed]",
   // TODO: confirm professional indemnity cover before publishing a figure.

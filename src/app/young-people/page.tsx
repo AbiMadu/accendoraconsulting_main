@@ -41,7 +41,7 @@ const audiences = [
   {
     eyebrow: "For employers",
     title: "Engage future talent without overwhelming your teams.",
-    body: "Employers rarely lack goodwill towards young people they lack a workable model. Accendora helps translate what an organisation actually does into experiences young people can engage with, sized to fit operational reality and owned properly inside the business.",
+    body: "Employers rarely lack goodwill towards young people they lack a workable model. Accendia helps translate what an organisation actually does into experiences young people can engage with, sized to fit operational reality and owned properly inside the business.",
     points: [
       "A model proportionate to your capacity and sector",
       "Clear internal roles, so engagement is not one person's side project",
@@ -54,7 +54,7 @@ const audiences = [
   {
     eyebrow: "For schools, colleges & providers",
     title: "Employer engagement that lasts longer than one cohort.",
-    body: "Education organisations need employer relationships that are dependable, not opportunistic. Accendora helps build the bridges between education and employers with shared expectations, defined points of contact and a structure designed to continue beyond a single academic year.",
+    body: "Education organisations need employer relationships that are dependable, not opportunistic. Accendia helps build the bridges between education and employers with shared expectations, defined points of contact and a structure designed to continue beyond a single academic year.",
     points: [
       "Purposeful introductions rather than cold outreach",
       "Shared expectations and defined roles on both sides",
@@ -72,7 +72,7 @@ export default function YoungPeoplePage() {
       <PageHero
         eyebrow="People & future talent"
         title="Creating meaningful pathways into the world of work."
-        lead="The future workforce is already growing up around us. Accendora works with organisations to create meaningful opportunities for young people to see, experience and understand the world of work, while helping employers think differently about how they engage future talent."
+        lead="The future workforce is already growing up around us. Accendia works with organisations to create meaningful opportunities for young people to see, experience and understand the world of work, while helping employers think differently about how they engage future talent."
         image="/placeholders/young-people.jpg"
         alt="Abstract rising pathway across a field of forms"
       />
@@ -90,7 +90,7 @@ export default function YoungPeoplePage() {
             <p className="mt-8 max-w-2xl text-lg leading-relaxed text-slate">
               The difference is design. A meaningful experience has a purpose, an owner and a
               connection to what happens next and it is safeguarded and age-appropriate from the
-              outset. That is the work Accendora does: turning employer goodwill and education
+              outset. That is the work Accendia does: turning employer goodwill and education
               ambition into something structured enough to be repeated, evaluated and improved.
             </p>
             <div className="mt-10">
@@ -186,7 +186,7 @@ export default function YoungPeoplePage() {
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-slate">
               Work with school-aged young people carries responsibilities that cannot be retro-fitted.
-              Accendora designs career experiences, workplace visits and mentorship models so that
+              Accendia designs career experiences, workplace visits and mentorship models so that
               safeguarding, risk management and age-appropriateness are built into the structure of
               the activity supervision, boundaries, expectations and escalation understood by
               everyone involved before anything begins.
@@ -252,7 +252,7 @@ export default function YoungPeoplePage() {
                 Experience is only valuable if a young person can use it.
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-slate">
-                Accendora connects early experiences to the confidence, soft skills and practical
+                Accendia connects early experiences to the confidence, soft skills and practical
                 next steps young people need and builds in the reflection that lets them explain
                 what they did and what they learned. For employers, the same structure produces a
                 clearer view of emerging talent and a route that can be developed over time.

@@ -38,7 +38,7 @@ export default function QualityPage() {
         eyebrow="Quality & accreditation support"
         title="Quality that holds up when somebody looks closely."
         lead="Accendora supports organisations to strengthen quality practice and prepare for accreditation or external standards building the frameworks, evidence and review habits that stand up to scrutiny."
-        image="/placeholders/quality.svg"
+        image="/placeholders/quality.jpg"
         alt="Abstract layered documents with a verification mark"
       />
 
@@ -134,7 +134,7 @@ export default function QualityPage() {
         <div className="grid items-center gap-14 lg:grid-cols-2">
           <Reveal direction="left">
             <Figure
-              src="/placeholders/capability.svg"
+              src="/placeholders/capability.jpg"
               alt="Abstract grid with a rising plotted line representing improvement over time"
               ratio="5/4"
               sizes="(min-width: 1024px) 50vw, 100vw"

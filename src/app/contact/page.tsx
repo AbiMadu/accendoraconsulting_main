@@ -62,7 +62,7 @@ export default function ContactPage() {
 
           <Reveal delay={0.1} direction="right">
             <Figure
-              src="/placeholders/conversation.svg"
+              src="/placeholders/conversation.jpg"
               alt="Abstract overlapping conversation forms"
               ratio="4/3"
               sizes="(min-width: 1024px) 45vw, 100vw"

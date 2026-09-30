@@ -15,19 +15,19 @@ export const metadata: Metadata = {
 
 const serviceImages: Record<string, { src: string; alt: string }> = {
   "people-future-talent": {
-    src: "/placeholders/people.svg",
+    src: "/placeholders/people.jpg",
     alt: "Abstract grouping of figures representing people and future talent",
   },
   "workforce-capability": {
-    src: "/placeholders/capability.svg",
+    src: "/placeholders/capability.jpg",
     alt: "Abstract grid with a rising plotted line representing organisational capability",
   },
   "quality-accreditation": {
-    src: "/placeholders/quality.svg",
+    src: "/placeholders/quality.jpg",
     alt: "Abstract layered documents with a verification mark",
   },
   "programmes-partnerships": {
-    src: "/placeholders/programmes.svg",
+    src: "/placeholders/programmes.jpg",
     alt: "Abstract programme timeline with overlapping workstreams",
   },
 };
@@ -39,7 +39,7 @@ export default function WhatWeDoPage() {
         eyebrow="What we do"
         title="Strategic thinking, built to be delivered."
         lead="Accendora works across people, capability and opportunity designing and delivering the programmes, partnerships and quality practice that organisations need in order to move forward."
-        image="/placeholders/workplace.svg"
+        image="/placeholders/workplace.jpg"
         alt="Abstract composition of workplace forms in navy and bronze"
       />
 

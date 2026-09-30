@@ -48,7 +48,7 @@ const audiences = [
       "Safeguarded, age-appropriate activity you can stand behind",
       "A route from early insight through to early talent pipelines",
     ],
-    image: "/placeholders/workplace.svg",
+    image: "/placeholders/workplace.jpg",
     alt: "Abstract composition of workplace forms",
   },
   {
@@ -61,7 +61,7 @@ const audiences = [
       "Experiences mapped to skills, curriculum intent and progression",
       "Partnerships built to be sustainable, not personality-dependent",
     ],
-    image: "/placeholders/people.svg",
+    image: "/placeholders/people.jpg",
     alt: "Abstract grouping of figures representing young people",
   },
 ];
@@ -73,7 +73,7 @@ export default function YoungPeoplePage() {
         eyebrow="People & future talent"
         title="Creating meaningful pathways into the world of work."
         lead="The future workforce is already growing up around us. Accendora works with organisations to create meaningful opportunities for young people to see, experience and understand the world of work, while helping employers think differently about how they engage future talent."
-        image="/placeholders/young-people.svg"
+        image="/placeholders/young-people.jpg"
         alt="Abstract rising pathway across a field of forms"
       />
 
@@ -200,7 +200,7 @@ export default function YoungPeoplePage() {
           </Reveal>
           <Reveal delay={0.1} direction="right">
             <Figure
-              src="/placeholders/quality.svg"
+              src="/placeholders/quality.jpg"
               alt="Abstract layered documents with a verification mark"
               ratio="4/5"
               sizes="(min-width: 1024px) 40vw, 100vw"

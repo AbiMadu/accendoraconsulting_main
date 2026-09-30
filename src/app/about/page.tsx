@@ -19,56 +19,56 @@ export const metadata: Metadata = {
  */
 const experienceSlides: EditorialSlide[] = [
   {
-    image: "/placeholders/people.svg",
+    image: "/placeholders/people.jpg",
     alt: "Abstract grouping of figures representing people",
     label: "Education",
     title: "How education organisations actually work",
     body: "Curriculum intent, progression, learner experience and the operational pressures education teams carry understood from the inside rather than described from outside.",
   },
   {
-    image: "/placeholders/capability.svg",
+    image: "/placeholders/capability.jpg",
     alt: "Abstract grid with a rising plotted line",
     label: "Workforce development",
     title: "Developing people at scale",
     body: "Building the skills, structures and development routes that let an organisation meet what is being asked of it now and next.",
   },
   {
-    image: "/placeholders/young-people.svg",
+    image: "/placeholders/young-people.jpg",
     alt: "Abstract rising pathway across a field of forms",
     label: "Early talent",
     title: "Designing the first rungs",
     body: "Career insight, work experience and early talent activity designed to be purposeful, safeguarded and connected to progression.",
   },
   {
-    image: "/placeholders/programmes.svg",
+    image: "/placeholders/programmes.jpg",
     alt: "Abstract programme timeline with overlapping workstreams",
     label: "Programme delivery",
     title: "Moving from plan to delivery",
     body: "Mobilising programmes, holding the detail, coordinating the people involved and keeping delivery moving once the strategy document is closed.",
   },
   {
-    image: "/placeholders/workplace.svg",
+    image: "/placeholders/workplace.jpg",
     alt: "Abstract composition of workplace forms",
     label: "Employer engagement",
     title: "Speaking credibly to employers",
     body: "Translating between what employers need operationally and what education and talent partners are trying to achieve.",
   },
   {
-    image: "/placeholders/opportunity.svg",
+    image: "/placeholders/opportunity.jpg",
     alt: "Abstract converging pathways rising toward a point",
     label: "Organisational development",
     title: "Structure, ownership, capability",
     body: "Strengthening how an organisation is set up to deliver roles, ownership and the capability that makes consistency possible.",
   },
   {
-    image: "/placeholders/quality.svg",
+    image: "/placeholders/quality.jpg",
     alt: "Abstract layered documents with a verification mark",
     label: "Quality",
     title: "Practice that withstands scrutiny",
     body: "Quality assurance, frameworks, review and accreditation readiness experience of what external scrutiny genuinely asks for.",
   },
   {
-    image: "/placeholders/conversation.svg",
+    image: "/placeholders/conversation.jpg",
     alt: "Abstract overlapping conversation forms",
     label: "Partnerships",
     title: "Holding multi-party work together",
@@ -149,7 +149,7 @@ export default function AboutPage() {
           <Reveal delay={0.1} direction="right">
             <div>
               <Figure
-                src="/placeholders/founder.svg"
+                src="/placeholders/founder.jpg"
                 alt={`Portrait placeholder for ${site.founder.name}`}
                 ratio="4/5"
                 sizes="(min-width: 1024px) 45vw, 100vw"

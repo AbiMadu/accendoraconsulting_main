@@ -293,11 +293,11 @@ export default function AboutPage() {
             <p className="eyebrow text-muted">Company details</p>
             <p className="mt-4 font-serif text-2xl text-ink">{site.name}</p>
             <p className="mt-2 text-sm text-slate">
-              Registered in {legal.countryOfRegistration} · Company number {site.companyNumber} ·
+              Registered in {site.countryOfRegistration} · Company number {site.companyNumber} ·
               Established {site.established}
             </p>
             <p className="mt-2 text-sm text-slate">
-              Registered office: {legal.registeredAddress}
+              Registered office: {site.registeredAddress}
             </p>
           </div>
           <Button href="/contact" variant="secondary">

@@ -2,6 +2,28 @@
  * Single source of truth for editable site-wide values.
  * Change these here — they are never hardcoded in pages.
  */
+/**
+ * Cal.com scheduling. One place for every bookable value — the embed, the contact
+ * page route card and any CTA all read from here.
+ *
+ * `calLink` is the path after cal.com/ — i.e. username/event-slug.
+ */
+export const cal = {
+  // TODO: replace with the live Cal.com username once the Accendora account is created.
+  username: "accendora",
+  // TODO: confirm the event slug for the introductory conversation.
+  eventSlug: "intro-conversation",
+  /** Isolates this embed's Cal instance from any other on the page. */
+  namespace: "intro-conversation",
+  layout: "month_view",
+  get calLink() {
+    return `${this.username}/${this.eventSlug}`;
+  },
+  get bookingUrl() {
+    return `https://cal.com/${this.calLink}`;
+  },
+} as const;
+
 export const site = {
   name: "Accendora Consulting Ltd",
   shortName: "Accendora",
@@ -12,11 +34,11 @@ export const site = {
   tagline: "Building stronger organisations. Creating pathways to opportunity.",
   pillars: "People | Capability | Opportunity",
   // TODO: replace with the live business email address.
-  email: "hello@accendoraconsulting.co.uk",
+  email: "hello@accendoraconsulting.com",
   // TODO: replace once the Accendora LinkedIn company page is created.
-  linkedin: "https://www.linkedin.com/company/accendora-consulting",
-  // TODO: replace with a scheduling link (Calendly / MS Bookings) when live.
-  bookingUrl: "https://calendly.com/accendora/intro-conversation",
+  linkedin: "https://uk.linkedin.com/in/abiolamadubata",
+  /** Cal.com booking page — configured in `cal` above. */
+  bookingUrl: cal.bookingUrl,
   founder: {
     name: "Abiola Madubata",
     role: "Founder & Principal Consultant",

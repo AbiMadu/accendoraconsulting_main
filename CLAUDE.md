@@ -151,15 +151,28 @@ Three routes: **Book a conversation**, **Email Accendora**, **LinkedIn**. Plus a
 contact form. The LinkedIn presence for Accendora is not yet created — keep the URL a single
 configurable constant.
 
+**Book a conversation** is a Cal.com inline embed on the page itself, not an outbound link: the
+route card anchors to the `#book` section, where the scheduler is embedded directly. Keep it that
+way — the reader should be able to pick a time without leaving the site. An email fallback sits
+below the embed, and the outbound Cal.com URL stays available for `noscript`.
+
 ## Technical
 
 - Next.js (App Router, TypeScript, `src/`), Tailwind CSS.
 - `framer-motion` (`motion/react`) for animation and page transitions; `embla-carousel-react`
-  for the Home and About carousels.
+  for the Home and About carousels; `@calcom/embed-react` for the Contact page booking embed.
 - Images are placeholders for now; keep every image behind one component so real assets drop in
   cleanly. Always set explicit dimensions and alt text.
 - Site-wide editable strings (email, LinkedIn, booking link, company number) live in one config
   module — never hardcoded across pages.
+- **Cal.com**: every bookable value lives in the `cal` object in `src/lib/site.ts` — `username`,
+  `eventSlug`, `namespace` and `layout`, with `calLink` and `bookingUrl` derived from them.
+  `site.bookingUrl` reads from it, so there is still exactly one place to change. Never hardcode a
+  Cal link, username or event slug in a page or component. The account is not yet created: the
+  username and event slug are TODO placeholders and must be confirmed by Accendora before launch.
+  The embed is a client component (`src/components/BookingEmbed.tsx`) which also passes the brand
+  palette through `cssVarsPerTheme` so the scheduler reads as part of the site; Cal requires both
+  `light` and `dark` keys, and the site is light-only, so both carry the same values.
 - Animation is restrained: short durations, small distances, `once: true` reveals, and it must
   respect `prefers-reduced-motion`.
 

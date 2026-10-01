@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { BookingEmbed } from "@/components/BookingEmbed";
 import { ContactForm } from "@/components/ContactForm";
 import { Methodology } from "@/components/Methodology";
 import { Reveal, Stagger, StaggerItem } from "@/components/motion/Reveal";
@@ -16,8 +17,8 @@ const routes = [
     label: "Book a conversation",
     detail: "A 30-minute call, no obligation. Bring the problem, not a brief.",
     action: "Choose a time",
-    href: site.bookingUrl,
-    external: true,
+    href: "#book",
+    external: false,
   },
   {
     label: "Email Accendora",
@@ -96,6 +97,30 @@ export default function ContactPage() {
             </StaggerItem>
           ))}
         </Stagger>
+      </Section>
+
+      {/* -------------------------------------------------------------- booking */}
+      <Section tone="sand" id="book" className="scroll-mt-24">
+        <SectionHeading
+          eyebrow="Book a conversation"
+          title="Choose a time that works for you."
+          lead="Thirty minutes, directly with the founder. Pick a slot below and you will have a confirmation straight away."
+        />
+        <Reveal>
+          <div className="mt-12 border border-line bg-paper p-2 sm:p-4">
+            <BookingEmbed className="h-[44rem]" />
+          </div>
+        </Reveal>
+        <p className="mt-6 text-sm text-muted">
+          Prefer not to use the calendar?{" "}
+          <a
+            href={`mailto:${site.email}`}
+            className="text-accent underline-offset-4 hover:underline"
+          >
+            Email Accendora
+          </a>{" "}
+          and we will find a time.
+        </p>
       </Section>
 
       {/* ----------------------------------------------------------- form + why */}

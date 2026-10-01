@@ -1,11 +1,11 @@
-# CLAUDE.md — Accendia Consulting Ltd Website
+# CLAUDE.md — Accendora Consulting Ltd Website
 
 Project context and non-negotiable content rules for this repository. Read before writing any
 copy, component or page.
 
 ## The client
 
-**Accendia Consulting Ltd** — Company number 17479445, established September 2026.
+**Accendora Consulting Ltd** — Company number 17479445, established September 2026.
 A B2B consultancy working across people, capability and opportunity. Founder-led.
 
 Audience: senior decision-makers — CEOs, directors, employers, education organisations,
@@ -17,7 +17,7 @@ Core line: **Building stronger organisations. Creating pathways to opportunity.*
 
 Supporting line: **People | Capability | Opportunity**
 
-> Accendia works with organisations to develop people, programmes and partnerships that connect
+> Accendora works with organisations to develop people, programmes and partnerships that connect
 > talent, capability and opportunity.
 
 The three pillars define the business architecture:
@@ -28,7 +28,7 @@ The three pillars define the business architecture:
 
 ## Methodology — Discover → Design → Deliver → Develop
 
-Accendia's core consulting methodology. Treat it as substance, not decoration; visual treatment
+Accendora's core consulting methodology. Treat it as substance, not decoration; visual treatment
 stays clean, restrained and executive.
 
 | Stage | Meaning |
@@ -38,7 +38,7 @@ stays clean, restrained and executive.
 | **Deliver** | Move from strategy to implementation, coordinating people, partners and activity to make the work happen. |
 | **Develop** | Review what is working, strengthen the approach, capture learning and build longer-term capability. |
 
-It must read as flexible across all four service areas, and must communicate that Accendia works
+It must read as flexible across all four service areas, and must communicate that Accendora works
 from diagnosis and strategic thinking through to practical implementation and improvement.
 
 ## HARD RULES — credibility
@@ -48,7 +48,7 @@ These override any design or copy instinct. Breaking one is a defect.
 1. **No company or organisation names anywhere on the site.** No "working with…", no
    "our clients…", no "partners…", no logos, no logo wall, no testimonials, no case studies
    naming anyone. No work has been won yet.
-2. **Never describe Accendia as an accrediting body.** It is not one. Only ever:
+2. **Never describe Accendora as an accrediting body.** It is not one. Only ever:
    "accreditation support", "accreditation readiness", "supporting organisations through
    accreditation processes".
 3. **Do not state or imply current client relationships.** No claimed government, NHS, corporate
@@ -57,11 +57,11 @@ These override any design or copy instinct. Breaking one is a defect.
    from verified supplied wording).
 4. **Invent nothing in the founder bio** — no qualifications, clients, outcomes, job titles,
    achievements, dates, metrics or awards. Founder detail must come only from verified copy
-   supplied by Accendia. Unsupplied detail stays as a clearly-marked placeholder; never fill a
+   supplied by Accendora. Unsupplied detail stays as a clearly-marked placeholder; never fill a
    gap with a plausible guess.
 5. **No fabricated numbers anywhere** — no "200+ young people", no "15 years", no stats.
 6. Instead of proof-by-client-name, the site makes it easy for a reader to **imagine what working
-   with Accendia could look like**.
+   with Accendora could look like**.
 
 ## Tone
 
@@ -72,7 +72,7 @@ consultancy, or a small firm writing like a large corporate. Avoid playful, gimm
 stylised treatment.
 
 **Banned phrasing:** "We are passionate about…" and its family. Every consultancy site says it.
-Say *how* Accendia works instead — structure, ownership, delivery.
+Say *how* Accendora works instead — structure, ownership, delivery.
 
 ## Differentiator section — "From intention to implementation"
 
@@ -80,7 +80,7 @@ Appears on Home and What We Do. Copy:
 
 > Good ideas need more than enthusiasm. They need structure, ownership and delivery.
 >
-> Accendia works at the point where strategy meets implementation, helping organisations turn an
+> Accendora works at the point where strategy meets implementation, helping organisations turn an
 > ambition into a practical programme, partnership or pathway that can be delivered, evaluated
 > and improved.
 
@@ -93,7 +93,7 @@ Followed by the four-stage visual: DISCOVER → DESIGN → DELIVER → DEVELOP.
 2. `/what-we-do` **What We Do** — the four service areas in full.
 3. `/young-people` **Young People & Future Talent** — deliberately one of the strongest pages.
 4. `/quality-accreditation` **Quality & Accreditation**
-5. `/about` **About Accendia** — concise founder-led credibility, not an autobiography.
+5. `/about` **About Accendora** — concise founder-led credibility, not an autobiography.
 6. `/contact` **Contact**
 
 ### Service areas (What We Do)
@@ -118,7 +118,7 @@ Headline: **Creating meaningful pathways into the world of work.**
 
 Core message:
 
-> The future workforce is already growing up around us. Accendia works with organisations to
+> The future workforce is already growing up around us. Accendora works with organisations to
 > create meaningful opportunities for young people to see, experience and understand the world of
 > work, while helping employers think differently about how they engage future talent.
 
@@ -132,7 +132,7 @@ age-appropriateness are explicit selling points.
 
 ### About page
 
-Answers two questions only: *Who is behind Accendia?* and *Why should I trust her?*
+Answers two questions only: *Who is behind Accendora?* and *Why should I trust her?*
 Position the founder across education, workforce development, early talent, programme delivery,
 employer engagement, organisational development, quality, and partnerships. Concise — not a
 giant autobiography. Subject to hard rules 3 and 4 above.
@@ -147,8 +147,8 @@ Not "fill in the form and we'll get back to you". Headline:
 > quality, develop a programme or build a partnership, we'd welcome a conversation about what
 > you're trying to achieve.
 
-Three routes: **Book a conversation**, **Email Accendia**, **LinkedIn**. Plus a professional
-contact form. The LinkedIn presence for Accendia is not yet created — keep the URL a single
+Three routes: **Book a conversation**, **Email Accendora**, **LinkedIn**. Plus a professional
+contact form. The LinkedIn presence for Accendora is not yet created — keep the URL a single
 configurable constant.
 
 ## Technical

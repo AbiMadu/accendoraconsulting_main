@@ -5,7 +5,7 @@ import { termsOfBusiness } from "@/lib/legal";
 export const metadata: Metadata = {
   title: "Terms of business",
   description:
-    "The standard basis on which Accendia Consulting Ltd is engaged — scope, responsibilities, intellectual property, fees, liability and governing law.",
+    "The standard basis on which Accendora Consulting Ltd is engaged — scope, responsibilities, intellectual property, fees, liability and governing law.",
 };
 
 export default function TermsOfBusinessPage() {

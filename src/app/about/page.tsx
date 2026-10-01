@@ -8,7 +8,7 @@ import { founderAreas } from "@/lib/content";
 import { legal, site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About Accendia",
+  title: "About Accendora",
   description:
     "A founder-led consultancy bringing experience across education, workforce development, early talent, programme delivery, employer engagement, organisational development, quality and partnerships.",
 };
@@ -82,24 +82,24 @@ const experienceSlides: EditorialSlide[] = [
  * Per CLAUDE.md, nothing in the founder biography may be invented: no job titles, dates,
  * employers, qualifications, outcomes or metrics. Each entry below is a clearly-marked slot.
  * Past delivery (including any prior SPFT and We Job Box work) must be described in the past
- * tense, in wording supplied and approved by Accendia, with no implication of an ongoing
+ * tense, in wording supplied and approved by Accendora, with no implication of an ongoing
  * relationship.
  */
 const careerPlaceholders = [
   {
     period: "[Period to confirm]",
     title: "[Verified role title]",
-    body: "[Verified description of the role and the work delivered, in Accendia's own approved wording. Past tense where the engagement has ended.]",
+    body: "[Verified description of the role and the work delivered, in Accendora's own approved wording. Past tense where the engagement has ended.]",
   },
   {
     period: "[Period to confirm]",
     title: "[Verified role title]",
-    body: "[Verified description of the role and the work delivered, in Accendia's own approved wording. Past tense where the engagement has ended.]",
+    body: "[Verified description of the role and the work delivered, in Accendora's own approved wording. Past tense where the engagement has ended.]",
   },
   {
     period: "[Period to confirm]",
     title: "[Verified role title]",
-    body: "[Verified description of the role and the work delivered, in Accendia's own approved wording. Past tense where the engagement has ended.]",
+    body: "[Verified description of the role and the work delivered, in Accendora's own approved wording. Past tense where the engagement has ended.]",
   },
 ];
 
@@ -125,12 +125,12 @@ export default function AboutPage() {
       <section className="relative overflow-hidden bg-ink text-paper">
         <div className="container-x grid items-center gap-14 py-24 lg:grid-cols-[1.05fr_0.95fr] lg:py-32">
           <Reveal>
-            <Eyebrow tone="light">About Accendia</Eyebrow>
+            <Eyebrow tone="light">About Accendora</Eyebrow>
             <h1 className="mt-7 text-4xl leading-[1.1] sm:text-5xl lg:text-[3.25rem]">
               A consultancy built on delivery, not commentary.
             </h1>
             <p className="mt-7 max-w-xl text-lg leading-relaxed text-paper/75">
-              Accendia is founder-led. The work draws on experience across education, workforce
+              Accendora is founder-led. The work draws on experience across education, workforce
               development, early talent, programme delivery, employer engagement, organisational
               development, quality and partnerships the disciplines that have to work together for
               people, capability and opportunity to connect in practice.
@@ -167,11 +167,11 @@ export default function AboutPage() {
       <Section tone="paper">
         <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
           <Reveal>
-            <Eyebrow>Who is behind Accendia</Eyebrow>
+            <Eyebrow>Who is behind Accendora</Eyebrow>
           </Reveal>
           <Reveal delay={0.1}>
             <p className="font-serif text-[1.625rem] leading-[1.4] text-ink sm:text-[2rem]">
-              Accendia was founded to do the part of the work that usually gets left out the
+              Accendora was founded to do the part of the work that usually gets left out the
               implementation.
             </p>
             <div className="mt-7 grid gap-5 text-lg leading-relaxed text-slate">
@@ -183,7 +183,7 @@ export default function AboutPage() {
                 the initial energy fades.
               </p>
               <p>
-                That is the gap Accendia was built to work in and the reason the founder’s
+                That is the gap Accendora was built to work in and the reason the founder’s
                 background spans both strategic and delivery roles rather than one or the other.
               </p>
             </div>
@@ -225,7 +225,7 @@ export default function AboutPage() {
         <div className="mt-8 max-w-3xl">
           <Note>
             Draft build: the entries below are placeholders. Verified role titles, periods and
-            descriptions including any previous delivery work will be supplied by Accendia and
+            descriptions including any previous delivery work will be supplied by Accendora and
             dropped straight in.
           </Note>
         </div>
@@ -277,7 +277,7 @@ export default function AboutPage() {
       {/* ----------------------------------------------------------- the method */}
       <Section tone="paper">
         <SectionHeading
-          eyebrow="Accendia's methodology"
+          eyebrow="Accendora's methodology"
           title="Discover. Design. Deliver. Develop."
           lead="One method, applied consistently and the reason strategy and implementation are treated here as a single piece of work."
         />

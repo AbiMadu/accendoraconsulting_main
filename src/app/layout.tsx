@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: `%s — ${site.shortName}`,
   },
   description:
-    "Accendia works with organisations to develop people, programmes and partnerships that connect talent, capability and opportunity.",
+    "Accendora works with organisations to develop people, programmes and partnerships that connect talent, capability and opportunity.",
   openGraph: {
     title: `${site.shortName} — ${site.tagline}`,
     description: "People. Capability. Opportunity.",

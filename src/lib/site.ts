@@ -12,9 +12,9 @@ export const cal = {
   // TODO: replace with the live Cal.com username once the Accendora account is created.
   username: "accendora",
   // TODO: confirm the event slug for the introductory conversation.
-  eventSlug: "intro-conversation",
+  eventSlug: "30min",
   /** Isolates this embed's Cal instance from any other on the page. */
-  namespace: "intro-conversation",
+  namespace: "30min",
   layout: "month_view",
   get calLink() {
     return `${this.username}/${this.eventSlug}`;

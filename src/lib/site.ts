@@ -34,7 +34,7 @@ export const site = {
   tagline: "Building stronger organisations. Creating pathways to opportunity.",
   pillars: "People | Capability | Opportunity",
   // TODO: replace with the live business email address.
-  email: "hello@accendoraconsulting.com",
+  email: "info@accendoraconsulting.com",
   // TODO: replace once the Accendora LinkedIn company page is created.
   linkedin: "https://uk.linkedin.com/in/abiolamadubata",
   /** Cal.com booking page — configured in `cal` above. */
